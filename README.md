@@ -4,6 +4,8 @@
 
 ## Summary
 
+**jufe.du.dm.004283-001** is a JUFE and HDa joint course on fundamental data management - in the data science discipline - focused on beginner level developers of scientific digital tools.
+
 This course equips students with theoretical understanding and practical skills in scientific inquiry, data handling, and computational analysis. Through an interdisciplinary and research-oriented approach, students will engage in both conceptual and applied aspects of data management.
 
 ### Main Objectives
