@@ -27,6 +27,7 @@ git commit -m "Initial commit"
 Student work;
 
 - Create a branch
+- Do some edits to the README.md; ex. put in the name of the course in the headline
 - Merge changes
 - Upload as a private repository to an online hosting service, [gitee](https://gitee.com/) used in course, where alternatives are ex.
   - [gitcode](https://gitcode.com/)
