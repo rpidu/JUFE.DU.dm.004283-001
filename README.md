@@ -18,11 +18,11 @@ This course equips students with theoretical understanding and practical skills 
 
 ---
 
-## Course Structure: to be updated
+## Course Structure
 
-- Duration: ca. **4 weeks**
-- Weekly Load: ca. **5 lectures per week**
-- Total Lectures: ca. **20**
+- Duration: **4 weeks**
+- Weekly Load: **5 lectures per week**, 3-4 in last week
+- Total Lectures: **18-19** lectures
 
 ---
 
@@ -39,7 +39,7 @@ This course equips students with theoretical understanding and practical skills 
 
 | Week   | Lecture 1 | Lecture 2 | Lecture 3 | Lecture 4 | Lecture 5 |
 | ------ | --------- | --------- | --------- | --------- | --------- |
-| **W1** |           |           |           |           |           |
+| **W1** | Agility   | Versions  | IMRaD     | IPO       | Method    |
 | **W2** |           |           |           |           |           |
 | **W3** |           |           |           |           |           |
 | **W4** |           |           |           |           |           |
@@ -62,8 +62,8 @@ By the end of this course, students will:
 
 Assessment will utilise the process of scholarly peer review, with a preliminary breakdown of
 
-- **Participation & Exercises:** 30%
-- **Project Work:** 40%
+- **Participation & Exercises:** 40%
+- **Project Work:** 30%
 - **Final Presentation:** 30%
 
 ---
