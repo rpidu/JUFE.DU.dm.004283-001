@@ -1,11 +1,16 @@
 # Title
 
-Initially, this is a working title, centered on your intent. Along the road and by the end of the course, it will be a final title; with you results in mind.
+**NOTE:** Initially, this is a working title, centered on your intent. Along the road and by the end of the course, it will be a final title; with you results in mind.
+
+**ABSTRACT** when the work is done, put your abstract here; we will define the abstract later in the course.
 
 ## Introduction
 
 Impact is described here at the very beginning, answering the question; why should your work be done, what does it do for society as a whole?
 Problem description.^1
+
+- Focus your work with an aim.
+- List your research questions.
 
 ## Methods
 

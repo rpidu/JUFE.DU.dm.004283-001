@@ -39,7 +39,7 @@ Group work;
 
 - Group up and create public repository for group memebers, with **write permissions** (optional, see below) within the group
   - Ca. four students in each group
-  - There can be one central repository, and several subsidiary repositories; **requirement** is, share the central repository with teacher and peer students.
+  - There can be one **central repository**, and several subsidiary repositories; **requirement** is, share the central repository with teacher and peer students.
     - this substitute collaboration over the same repository, with write permissions.
 - Share central group repository URL with student peers
 - Each student within the group accesses the group repository, according to agreed way of work
