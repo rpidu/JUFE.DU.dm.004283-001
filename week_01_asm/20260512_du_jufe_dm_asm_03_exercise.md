@@ -43,13 +43,15 @@ Listing 3-10 good and relevant references.
 
 ## Challenge
 
+This challenge is a group work, using your group repositories to report the results.
+
 - Add superscript or _(author, year)_ style references
 - Start on an Introduction, identifying
   - an impact (society value)
   - a reference frame (theory), ie. scientific field
   - an challenge, ie. an open problem
   - a tentative solution (your work)
-- Upload into your groups git repository
+- Upload into your git **group repository**
 
 **NOTE:** the report does not have to be finished, but it should be present in its current state, within the group repository.
 

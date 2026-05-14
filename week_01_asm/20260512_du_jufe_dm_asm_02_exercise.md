@@ -24,7 +24,7 @@ git commit -m "Initial commit"
 
 ## Challenges
 
-Student work;
+Student work, submitted to a **student repository** (one repository per student);
 
 - Create a branch
 - Do some edits to the README.md; ex. put in the name of the course in the headline
@@ -33,9 +33,9 @@ Student work;
   - [gitcode](https://gitcode.com/)
 - Share repository URL with all peers in class, **read only** (default)
 - Clone another students work
-- Submit your `research stories`, from the day 1 exercise, into your public student repository.
+- Submit your `research stories`, from the day 1 exercise, into your public **student repository**.
 
-Group work;
+Group work, submitted to a **group repository** (one repository per group);
 
 - Group up and create public repository for group memebers, with **write permissions** (optional, see below) within the group
   - Ca. four students in each group
