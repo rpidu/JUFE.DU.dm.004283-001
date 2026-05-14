@@ -44,6 +44,7 @@ Group work, submitted to a **group repository** (one repository per group);
 - Share central group repository URL with student peers
 - Each student within the group accesses the group repository, according to agreed way of work
 - Each student create their own branch, and within their private branch
+  - NOTE: these student branches should not be the default branch, you should have one branch for each student _and_ one default branch (typically called `master`)
   - update `README.md` with a 3 sentence long **summary** of your course _intentions_ in a separate _paragraph_.
   - upload the student branch to the central repository
     - might inglude requests etc., depending on your setup on group work

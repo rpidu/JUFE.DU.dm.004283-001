@@ -52,6 +52,8 @@ This challenge is a group work, using your group repositories to report the resu
   - an challenge, ie. an open problem
   - a tentative solution (your work)
 - Upload into your git **group repository**
+  - add the document as the new `README.md` at the _top level_ of the repository,
+  - this means that you should move your old `README.md` aside, ex. into `README_w1e2.md`
 
 **NOTE:** the report does not have to be finished, but it should be present in its current state, within the group repository.
 
