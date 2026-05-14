@@ -14,6 +14,10 @@ The _concepts_ are **evaluated** by the student _peers_, on the basis that the _
 
 This evaluation results in a **score**, ranging from _negative_ (-), through _0_ to _positive_ (+) real **number**, one for each of the scoring _targets_; artifact, challenge and concept. Thus there is one score per peer, respondent and target. Here, _negative_ means that the respondent have **not passed** on that artifact, challenge or concept, _positive_ means that the respondent has **passed** - and _0_ means that the peer **cannot tell** the difference for this respondent.
 
+## Execution
+
+TODO: see notes.
+
 ## References
 
 - [Wikipedia - Peer Review](https://en.wikipedia.org/wiki/Scholarly_peer_review)
