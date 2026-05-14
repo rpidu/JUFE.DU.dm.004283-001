@@ -44,3 +44,4 @@ Following criterias apply;
 
 - https://en.wikipedia.org/wiki/User_story
 - https://en.wikipedia.org/wiki/Markdown
+  - https://www.markdownguide.org/
