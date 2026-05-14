@@ -45,6 +45,7 @@ Listing 3-10 good and relevant references.
 
 This challenge is a group work, using your group repositories to report the results.
 
+- Make a copy of the template `./20260512_du_jufe_dm_asm_03_exercise_template.md`
 - Add superscript or _(author, year)_ style references
 - Start on an Introduction, identifying
   - an impact (society value)
