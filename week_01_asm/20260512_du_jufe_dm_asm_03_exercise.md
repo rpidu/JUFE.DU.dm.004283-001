@@ -13,7 +13,7 @@ Write a simple IMRAD report using Markdown; whist adhereing to the "less-is-more
 
 ## Template
 
-TODO: remove detailed template; reference separate template in repo.
+See the full template in `./20260512_du_jufe_dm_asm_03_exercise_template.md`, below is a summarised version;
 
 ```md
 # Title
