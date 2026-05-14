@@ -1,10 +1,14 @@
 # Day 4 Exercise – IPO Model
 
+The input output process (IPO) architectural pattern is an atomistic pattern that is very hard to escape from in procedural programming; you will nescessarily find yourself writing IPO patterns all over your code. Since it is so simple, it might reflect to you as a banality, but knowing about will help you in discerning what code can be structured differently - refactoring it into more loosely coupled and disentangled code, which is easier to audit and maintain.
+
 ## Objective
 
-Write a Bash script using IPO.
+Write a script using the IPO.
 
 ## Example
+
+This example is written in BASH,
 
 ```bash
 #!/bin/bash
