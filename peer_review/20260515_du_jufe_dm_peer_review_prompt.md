@@ -43,3 +43,17 @@ Uploaded files, using chat interface;
 - `20260512_du_jufe_dm_asm_03_exercise_template.md`
 - `20260512_du_jufe_dm_asm_04_exercise.md`
 - `20260512_du_jufe_dm_asm_05_exercise.md`
+
+## `20260515`Prompt, deepseek.com vs copilot: form for collecting a grading vector
+
+Deepseek failed to provie an excel sheet from this prompt, but gave instead an `.csv` file to paste into excel by myself; but that would loose the color coding. The same prompt, with additional "Furthermore; ..." was submitted to copilot, which succeeded in producing a result on a cloud service.
+
+### P1
+
+Given the learning targets that I submit as a file, provide me an excel sheet to download; with a vector of the enumerated learning targets, color coded after the types and class of targets. Where types are the type of targets in artefacts, challenges and concepts and class is the kind of work as in student or group work. Attached, you find the summary of the learning targets to process. You have to provide me with a funcgtional link to the form that I actually can download, and it may not contain any summary file or stub file, but most be the full excel form that you have generated as the result of my prompt. Furthermore;
+
+- It should not contain the full descriptions of the queries, but summaries and the code for each artifact.
+
+#### Notes
+
+Uploading the file `./20260515_du_jufe_dm_peer_review_prompt_deepseek.md` .

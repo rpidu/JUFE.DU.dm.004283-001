@@ -33,6 +33,7 @@ More study improves results.
 
 - Ensure reproducibility; a researcher reading your report, should be able to follow method described and arrive at the same results
 - Submit the definition and description in the IMRaD _report_, within the **group repository**
+  - This means you should add this information to the `README.md` at top level, under the sections; _introduction_ and _method_.
 
 ## References
 
