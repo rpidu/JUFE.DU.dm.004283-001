@@ -8,6 +8,8 @@ This is part of the _group work_.
 
 ## Task
 
+**TODO:** add notion of "protocol"
+
 - Define **hypothesis**
   - also define a suitable _null_ hypothesis, or _antithesis_, which you can test
     - wrt. this course, a testable thesis is something you can _measure_
