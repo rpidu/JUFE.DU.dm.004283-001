@@ -1,25 +1,11 @@
 # 5-Day Exercise Set
 
+NOTE: these files are for later, not to be published before finalised
+
 TODO: split up in separate files, and clean-up
 TODO: fix examples, should execute against `./`
 TODO: extend with a normality check against data (day 4)
 TODO: extend all days with challenges
-
-## Day 1
-
-Task: Build a small script analysing a list of numbers.
-
-Example:
-
-```python
-data = [1,2,3,4]
-mean = sum(data)/len(data)
-```
-
-Reference:
-https://docs.python.org/3/tutorial/
-
----
 
 ## Day 2
 
