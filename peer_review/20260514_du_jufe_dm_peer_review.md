@@ -25,6 +25,12 @@ These **reviews** will be _distributed_ within the _student_ collegium _arbitrar
 
 Grading is therefore on learning targets directly, and not on assignments as a whole.
 
+## Weekly targets
+
+### Week 1
+
+See `20260518_du_jufe_dm_peer_review_01_selected_deepseek.md` for documentation and the form `20260518_du_jufe_dm_peer_review_01_selected_vector.xlsx` for filling in the vector.
+
 ## References
 
 - [Wikipedia - Peer Review](https://en.wikipedia.org/wiki/Scholarly_peer_review)
