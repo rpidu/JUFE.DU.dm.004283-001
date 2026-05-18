@@ -1,5 +1,10 @@
 # Python Data Science Crash Course (5 Days)
 
+**TODO:** The main fixes for this syllabus are;
+
+- Missing data handling
+- Data quality metrics
+
 ## Executive Summary
 
 This 5-day crash course introduces beginners to Python for data science - using high-quality free resources it focuses on,
@@ -10,11 +15,25 @@ This 5-day crash course introduces beginners to Python for data science - using 
 
 All resources are **free and online**, with priority given to concise explanations and practical examples.
 
-Primary sources:
+Categorised sources:
 
-- https://wesmckinney.com/book/ (Python for Data Analysis)
-- https://jakevdp.github.io/PythonDataScienceHandbook/
-- https://pandas.pydata.org/docs/user_guide/index.html
+- [Think Stats (Allen B. Downey)](https://greenteapress.com/wp/think-stats-2e/)
+- Python
+  - [Python Official Tutorial](https://docs.python.org/3/tutorial/)
+  - alternatively; [Automate the Boring Stuff (Ch. 1–6)](https://automatetheboringstuff.com/)
+  - [Python Data Science Handbook (Jake VanderPlas)](https://jakevdp.github.io/PythonDataScienceHandbook/)
+    - [Aggregation and grouping](https://jakevdp.github.io/PythonDataScienceHandbook/03.08-aggregation-and-grouping.html)
+  - [Python for Data Analysis](https://wesmckinney.com/book/)
+  - https://seaborn.pydata.org/tutorial.html
+- Libraries
+  - Pandas
+    - https://pandas.pydata.org/docs/user_guide/index.html
+      - [pandas Getting Started](https://pandas.pydata.org/docs/getting_started/index.html)
+      - [10 minutes to pandas](https://pandas.pydata.org/docs/user_guide/10min.html)
+    - [Python for Data Analysis, Pandas Basics](https://wesmckinney.com/book/pandas-basics.html)
+  - [NumPy](https://numpy.org/doc/)
+  - [Matplotlib Tutorials](https://matplotlib.org/stable/tutorials/index.html)
+  - [JSON with python](https://docs.python.org/3/library/json.html)
 
 ---
 
@@ -38,12 +57,10 @@ Primary sources:
 📘 Focus pages:
 
 - [Python Official Tutorial](https://docs.python.org/3/tutorial/)
-  - Focus: TODO: review and clean up
-    - Sections 3–5 (control flow, data structures)
-    - Functions & control flow: Sections 4–6
-- TODO: is this reference below relevant for the selected exercise?
+  - Sections 3–5 (control flow, data structures)
+  - Functions & control flow: Sections 4–6
 - [Automate the Boring Stuff (Ch. 1–6)](https://automatetheboringstuff.com/)
-  - Practical scripting mindset
+  - Practical scripting mindset, alternative to the official tutorial
 
 ---
 
@@ -54,22 +71,22 @@ Primary sources:
 - DataFrames
 - Transformations and grouping
   - Pipeline-style transformations
-  - Missing data handling
+  - **TODO:** Missing data handling
 - Writing and reading JSON
 
 References:
 
-- TODO: Clean this up, which ones are relevant to the exercise?
-  - do we need a reference to JSON?
-- https://pandas.pydata.org/docs/user_guide/10min.html
-- [pandas Getting Started](https://pandas.pydata.org/docs/getting_started/index.html)
-- https://wesmckinney.com/book/pandas-basics.html
 - [Python Data Science Handbook (Jake VanderPlas)](https://jakevdp.github.io/PythonDataScienceHandbook/)
   - Data Wrangling Section (Ch. 3)
+- [JSON with python](https://docs.python.org/3/library/json.html)
+- Pandas
+  - https://pandas.pydata.org/docs/user_guide/index.html
+    - [pandas Getting Started](https://pandas.pydata.org/docs/getting_started/index.html)
+    - [10 minutes to pandas](https://pandas.pydata.org/docs/user_guide/10min.html)
+  - [Python for Data Analysis, Pandas Basics](https://wesmckinney.com/book/pandas-basics.html)
 
 📘 Pages:
 
-- TODO: Clean this up, which ones are relevant to the exercise?s
 - Data cleaning: Chapter 7 (McKinney)
 - Data Wrangling: Ch. 3 (pandas basics, indexing, cleaning)
 - Transformation: Pandas user guide section "GroupBy"
@@ -84,6 +101,7 @@ References:
   - Correlation
   - Aggregation
 - Hypothesis thinking
+  - TODO: this should actually focus some metric on data quality
 - Numpy (TODO: what core parts of numpy is relevant)
 
 References:
