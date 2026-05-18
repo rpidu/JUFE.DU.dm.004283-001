@@ -21,4 +21,8 @@ mean = sum(data)/len(data)
 ```
 
 Reference:
-https://docs.python.org/3/tutorial/
+
+- https://docs.python.org/3/tutorial/
+- https://github.com/ropil/stubs_py3
+  - https://gitee.com/robert-pilstaal/stubs-p3
+  - https://gitee.com/robert-pilstaal/stubs-p3/blob/master/stub_reading_file_or_stdin_gpl.py
