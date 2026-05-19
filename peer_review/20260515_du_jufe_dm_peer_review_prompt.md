@@ -60,7 +60,7 @@ Uploading the file `./20260515_du_jufe_dm_peer_review_prompt_deepseek.md` .
 
 ## `20260519` Prompt: generate student peer and respondent set
 
-NOTE: this resulted in the script `./20260519_du_jufe_dm_peer_review_group_generator_determ.md` .
+> NOTE: this resulted in the script `./20260519_du_jufe_dm_peer_review_group_generator_determ.md` .
 
 Hi deepseek, please provide me with the python script to download, in accord with the following specification;
 
@@ -100,7 +100,9 @@ Format,
   - Docstrings focus architecture design and intent
   - Inline commentary focus procedural and algorithmic design
 
-### Variation 2
+### Variation 2, with randomness
+
+> NOTE: this resulted in the script `./20260519_du_jufe_dm_peer_review_group_generator_rand.py`, and was selected as our solution for the course.
 
 Hi deepseek, please provide me with the python script to download, in accord with the following specification;
 

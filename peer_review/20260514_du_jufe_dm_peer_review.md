@@ -31,6 +31,26 @@ Grading is therefore on learning targets directly, and not on assignments as a w
 
 See `20260518_du_jufe_dm_peer_review_01_selected_deepseek.md` for documentation and the form `20260518_du_jufe_dm_peer_review_01_selected_vector.xlsx` for filling in the vector.
 
+The groupings for week 1 was generated with;
+
+```ps
+ py ..\20260512_du_jufe_dm_rpi\peer_review\20260519_du_jufe_dm_peer_review_group_generator_rand.py callsigns.txt > 20260519_groups_week_01.txt
+```
+
+## Codes
+
+Setting the callsigns automatically, from english names - assigning disambiguities manually;
+
+```python
+with open('english.txt') as f:
+    lines=[]
+    for line in f:
+        lines.append(line[:3].upper())
+lines.sort()
+for line in lines:
+    print(line)
+```
+
 ## References
 
 - [Wikipedia - Peer Review](https://en.wikipedia.org/wiki/Scholarly_peer_review)
