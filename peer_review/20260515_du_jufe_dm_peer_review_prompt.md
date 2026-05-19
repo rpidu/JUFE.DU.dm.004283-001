@@ -57,3 +57,85 @@ Given the learning targets that I submit as a file, provide me an excel sheet to
 #### Notes
 
 Uploading the file `./20260515_du_jufe_dm_peer_review_prompt_deepseek.md` .
+
+## `20260519` Prompt: generate student peer and respondent set
+
+NOTE: this resulted in the script `./20260519_du_jufe_dm_peer_review_group_generator_determ.md` .
+
+Hi deepseek, please provide me with the python script to download, in accord with the following specification;
+
+Given a set of identifiers, each identifier should be grouped with a unique subset of other identifiers, making a new set of identifier groupings that cover the set of identifiers evenly.
+
+Interpretations,
+
+- the new set of identifier groups cover the set of identifiers evenly, so that all identifiers appears the same number of times across the groupings in total.
+  - if this is impossible, then try to approximate this as closely as possible
+- each identifier should be used as a group identifier for an identifier grouping, meaning we will have as many identifier groupings as we have identifiers in the initial set.
+- the identifiers within a grouping should all be unique within the grouping, and selected randomly from the set of identifiers
+
+Inputs,
+
+- Read the st of identifiers from a text file, containing one identifier per line
+
+Outputs,
+
+- report the groupings as lists, with the first identifier being the group identifier, and the other identifiers sorted alphanumerically following the group identifier
+  - each grouping is listed on a single line, with spaces separating each identifier
+- sort the output of groupings alphanumerically on the group identifier
+
+Conditions,
+
+- each grouping should contain 9 identifiers
+
+Format,
+
+- Write the script in Python,
+- Use a Backend-Model-Process pattern, defining two classes and a function(s)
+  - Formalise file reading as a backend, accepting target file(s), yielding data to the model
+  - Formalise model as a process, accepting backend object and process function(s)
+- Use IPO style procedural programm for any process function(s)
+- Include a main function, which accepts target file and arguments from CLI, using python argumentparser
+  - the main function should be invoked if in the top-level code environment, ie. `if __name__ == '__main__'`
+- All code should follow PEP 8, and have good docstrings for classes, functions and the script as a whole; with inline descriptive comments for each relevant block of code and a concise one-line description of the script in the help option from the CLI.
+  - Docstrings focus architecture design and intent
+  - Inline commentary focus procedural and algorithmic design
+
+### Variation 2
+
+Hi deepseek, please provide me with the python script to download, in accord with the following specification;
+
+Given a set of identifiers, each identifier should be grouped with a unique subset of other identifiers, making a new set of identifier groupings that cover the set of identifiers evenly.
+
+Interpretations,
+
+- the new set of identifier groups cover the set of identifiers evenly, so that all identifiers appears the same number of times across the groupings in total.
+  - if this is impossible, then approximate this as closely as possible, finding and reporting a reasonable approximative set as close as possible to the specification; within reasonable time and effort
+- each identifier should be used as a group identifier for an identifier grouping, meaning we will have as many identifier groupings as we have identifiers in the initial set.
+- the identifiers within a grouping should all be unique within the grouping, and selected randomly from the set of identifiers
+
+Inputs,
+
+- Read the st of identifiers from a text file, containing one identifier per line
+
+Outputs,
+
+- report the groupings as lists, with the first identifier being the group identifier, and the other identifiers sorted alphanumerically following the group identifier
+  - each grouping is listed on a single line, with spaces separating each identifier
+- sort the output of groupings alphanumerically on the group identifier
+
+Conditions,
+
+- each grouping should contain 9 identifiers
+
+Format,
+
+- Write the script in Python,
+- Use a Backend-Model-Process pattern, defining two classes and a function(s)
+  - Formalise file reading as a backend, accepting target file(s), yielding data to the model
+  - Formalise model as a process, accepting backend object and process function(s)
+- Use IPO style procedural programm for any process function(s)
+- Include a main function, which accepts target file and arguments from CLI, using python argumentparser
+  - the main function should be invoked if in the top-level code environment, ie. `if __name__ == '__main__'`
+- All code should follow PEP 8, and have good docstrings for classes, functions and the script as a whole; with inline descriptive comments for each relevant block of code and a concise one-line description of the script in the help option from the CLI.
+  - Docstrings focus architecture design and intent
+  - Inline commentary focus procedural and algorithmic design
