@@ -78,12 +78,12 @@ References; see reference to previous week in exercise.
 ### 3. Data Wrangling (Day 3)
 
 - Reading CSV
-- Cleaning data, filtering
 - DataFrames
-- Transformations and grouping
-  - Pipeline-style transformations
-  - **TODO:** Missing data handling
-- Writing and reading JSON
+- Cleaning data in pipelines
+  - filtering data errors
+  - completing missing data
+  - imputing missing data
+- Writing JSON
 
 References:
 
@@ -104,16 +104,16 @@ References:
 
 ---
 
-### 3. Statistical Analysis (Day 4)
+### 4. Statistical Analysis (Day 4)
 
-- TODO: verify the relevance of this structuring of the concepts
-- Descriptive statistics
-- Probability basics
-  - Correlation
-  - Aggregation
-- Hypothesis thinking
-  - TODO: this should actually focus some metric on data quality
-- Numpy (TODO: what core parts of numpy is relevant)
+- Reading JSON
+- Statistics
+  - Aggregation measures
+  - Data normalisation
+  - Correlation analysis
+- Data quality
+  - outliers, errors and
+  - completeness
 
 References:
 
@@ -128,12 +128,15 @@ References:
 
 ---
 
-### 4. Visualisation (Day 5)
+### 5. Visualisation (Day 5)
 
-- Line plots
-- Scatter plots
-- Histograms
-- Basic dashboards
+> **NOTE:** this part can be done, more lightweight, together with day/part 4.
+
+- Plotting
+  - Line plots
+  - Scatter plots
+  - Histograms
+- Basic dashboards (for a longer exercise)
 
 References:
 

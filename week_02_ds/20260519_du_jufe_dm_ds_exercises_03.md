@@ -10,7 +10,7 @@ The task is to build a small script filtering a previously generated set of data
 
 ## Challenges
 
-Todays exercises is split into 3 incremental challenges to get you started. Begin with the first, continuing through the rest as you go. This exercise builds heavily on AI use; you are to discuss and work through examples together with AI, asking AI to explain and find sources for the material.
+Todays exercises is split into 3 incremental challenges that build on each other. As previous exercise, this exercise builds heavily on AI use; you are to discuss and work through examples together with AI, asking AI to explain and find sources for the material, and execute parts of the challenges. Keep in mind though, that you need to keep meticulous track of your work, in order to discuss the end result and process to it, in the documentation part of the challenges.
 
 This work is **student work**, and go into the **student repository**.
 
@@ -31,6 +31,8 @@ The filter you implement should;
 - Drop all detected
   - malformed, or
   - Missing data
+
+Your implementation should output the data into **JSON format**, extending your architecture with another file backend for JSON.
 
 Approach the problem by;
 
@@ -54,6 +56,7 @@ Reference:
 - https://pandas.pydata.org/docs/user_guide/10min.html
 - [Python for Data Analysis, Pandas Basics](https://wesmckinney.com/book/pandas-basics.html)
   - Data cleaning: Chapter 7 (McKinney)
+- [JSON with python](https://docs.python.org/3/library/json.html)
 
 ### 2. Completing Missing Data
 
@@ -67,6 +70,7 @@ Approach the problem by;
 - Implementing the design using AI, and your specification of the design,
   - extending your pipeline architecture with this filter, as a plugin that can replace
   - whilst retaining the previous filter as an option
+  - using the JSON backend to write the data
 
 ### 3. Imputing Missing Data
 
