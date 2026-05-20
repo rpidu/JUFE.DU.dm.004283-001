@@ -30,6 +30,8 @@ The aggregation you implement should;
   - level of errors in the data, and
   - measures on data outliers
 
+Your system should also be extended with the capacity to store metadata of aggregates in `.json` format.
+
 Approach the problem by;
 
 - Discussing the design of the relevant aggregation(s) with AI
