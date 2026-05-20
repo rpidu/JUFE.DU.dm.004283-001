@@ -1,77 +1,44 @@
-# Lecuture 0202, exercise; Generating and Filtering Data
+# Lecuture 0203, exercise; Filtering Generated Data
 
-TODO: extend all days with challenges
-
-Task: Load CSV and clean missing values.
+Task: Load prevously generated CSV and clean missing values.
 
 ---
 
 ## Overview
 
-The task is to build a small script filtering and completing a generated set of data, which contains malformed or missing data, using and extending the previously introduced **Backend-Model-Process** and object-oriented architectural pattern.
+The task is to build a small script filtering a previously generated set of data, which contains malformed or missing data, using and extending the previously introduced **Backend-Model-Process** and object-oriented architectural pattern.
 
 ## Challenges
 
-Todays exercises is split into 4 incremental challenges to get you started. Begin with the first, continuing through the rest as you go. This exercise builds heavily on AI use; you are to discuss and work through examples together with AI, asking AI to explain and find sources for the material - and also generate both data and small challenges for you along the key concepts provided.
+Todays exercises is split into 3 incremental challenges to get you started. Begin with the first, continuing through the rest as you go. This exercise builds heavily on AI use; you are to discuss and work through examples together with AI, asking AI to explain and find sources for the material.
 
 This work is **student work**, and go into the **student repository**.
 
-### 1. Generate Data
-
-Begin by discussing the research stories into experiment design;
-
-- Use the Research Stories (RS) you created in exercise 0101 (see `20260512_du_jufe_dm_asm_01_exercise.md`)
-- Discuss your RS together with AI, generating hypotheses and experiment design as you did in exercise 0105 (see `20260515_du_jufe_dm_asm_05_exercise.md`)
-- Using the experiment design that you arrived upon with AI in the previous step; design a data collection method that would test your hypotheses
-
-Then continue to work on how to design the generator;
-
-- Discuss how a minimalistic data generator could be designed to generate data samples from such a data collection method; discussing in particular
-  - how to focus a subspace of the problems full dimensionality, for
-    - simple proof-of-concept of the experiment design
-  - from what statistical distribution the samples should be drawn
-  - how you should format the samples in a CSV file
-  - how to simulate input or collection errors in the data
-  - how to simulate other missing data
-- Find high quality peer reviewed scholarly articles,
-  - covering the key concepts in your discussion of the generator, with
-  - one article for each of such concepts
-
-After arriving at the generator design, implement it using AI - generating the data;
-
-- Implement the data generator,
-  - with a minimalistic, less-is-more, approach
-  - using the **Backend-Model-Process** architcture
-  - as a CLI script using python argparse and the `__name__ == "__main__"` entrypoint
-- Generate the data
-  - The resulting data should be in CSV file format
-  - It should contain some
-    - missing data, and
-    - malformed or false data
-  - Document the process in your repository, extending ex. `README.md`
-
-Then document how you have worked together with AI, and what results you arrived at;
-
-- Document your discussion with AI, and your understanding of the resulting model
-  - provide at most one paragraph each, detailing all of;
-    - the target experiment, the
-    - the design of the generator,
-    - why the design is applicable for the experiment, and
-    - the implemented generator and quality of the data.
-  - Summarise the whole generator exercise in one paragraph, which
-    - begins with one sentence that summarise the whole paragraf.
-
-### 2. Filtering Data
+### 1. Filtering Data
 
 The data should now be filtered, using a simple data filter implemented as a processing function, filtering the data contained in the data file you generated above.
 
-- Use the same style of data processing script developed in **exercises 0201**; a
+- Use the same style of data processing script developed in **exercises 0201-02**; a
   - Backend-Model-Process, with
   - IPO for process function and
   - CLI entrypoint with argparse
 - The data filtering artifact should be fully implemented in the processing function
 - Process generated data from CLI
 - Document how your code should be called from CLI, and expected output, in your `README.md`
+
+The filter you implement should;
+
+- Drop all detected
+  - malformed, or
+  - Missing data
+
+Approach the problem by;
+
+- Discussing the design of the filters detection mechanism with AI
+- Identifying the main motivation to the selected mechanism with regard to your experiment design
+- Locating relevant documentation in peer reviewed journals, as previously done in **exercise 0202**
+- Implementing the design using AI, and your specification of the design,¨
+  - keeping the filtering function, or subsystem, as a pluggable component in your pipeline architecture
 
 Example minimalistic filtering artifact, targeting missing data;
 
@@ -83,8 +50,30 @@ df = df.dropna()
 ```
 
 Reference:
-https://pandas.pydata.org/docs/user_guide/10min.html
 
-### 3. Completing Missing Data
+- https://pandas.pydata.org/docs/user_guide/10min.html
+- [Python for Data Analysis, Pandas Basics](https://wesmckinney.com/book/pandas-basics.html)
+  - Data cleaning: Chapter 7 (McKinney)
 
-### 4. Imputing Missing Data
+### 2. Completing Missing Data
+
+Update your previous script by adding the ability to complete any missing data, using a relevant heuristic; ie. a "rule of thumb".
+
+Approach the problem by;
+
+- Discussing the design of the heuristics detection mechanism with AI
+- Identifying the main motivation to the selected mechanism with regard to your experiment design
+- Locating relevant documentation in peer reviewed journals, as also done in previously previous challenge
+- Implementing the design using AI, and your specification of the design,
+  - extending your pipeline architecture with this filter, as a plugin that can replace
+  - whilst retaining the previous filter as an option
+
+### 3. Imputing Missing Data
+
+Update your previous script by adding the ability to impute missing data, inferring from the subset of the data that is complete - in the senste that it contains no data errors.
+
+Approach the problem similarly as done in the previous challenge; keeping in mind to keep all implemented filters available as plugins, in the resulting solution.
+
+### 4. Document the filter
+
+Document the exercise the same way that you documented the results from **exercise 0202**.

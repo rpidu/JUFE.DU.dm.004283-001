@@ -39,20 +39,22 @@ Categorised sources:
 
 ## Prioritised Syllabus, with resources
 
-| Day | Focus          | Outcome                        |
-| --- | -------------- | ------------------------------ |
-| 1   | Python basics  | Understand syntax & data types |
-| 2   | Pandas intro   | Load & inspect data            |
-| 3   | Data wrangling | Clean & transform datasets     |
-| 4   | Statistics     | Analyse data quantitatively    |
-| 5   | Visualisation  | Communicate insights           |
+| Day | Focus           | Outcome                            |
+| --- | --------------- | ---------------------------------- |
+| 1   | Python Pipeline | Understand architecture and basics |
+| 2   | Data generation | Design experiment and data with AI |
+| 3   | Data wrangling  | Clean & transform datasets         |
+| 4   | Statistics      | Analyse data quantitatively        |
+| 5   | Visualisation   | Communicate insights               |
 
-### 1. Python Basics for Data Science (Day 1)
+### 1. Basic Pipeline using Python (Day 1)
 
-- Variables and types
-- Lists, dictionaries
-- Functions and control flow
-- File I/O
+- Python basics
+  - Variables and types
+  - Lists, dictionaries
+  - Functions and control flow
+  - File I/O
+- Building a CLI pipeline script
 
 📘 Focus pages:
 
@@ -64,7 +66,16 @@ Categorised sources:
 
 ---
 
-### 2. Data Wrangling & Pipelining (Day 2–3)
+### 2. Data generation (Day 2)
+
+- Generating data together with AI
+  - Simulation and
+  - Data errors
+- Documentation
+
+References; see reference to previous week in exercise.
+
+### 3. Data Wrangling (Day 3)
 
 - Reading CSV
 - Cleaning data, filtering

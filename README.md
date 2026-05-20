@@ -37,12 +37,12 @@ This course equips students with theoretical understanding and practical skills 
 
 ## Weekly Lecture Schedule: to be updated
 
-| Week   | Lecture 1 | Lecture 2 | Lecture 3 | Lecture 4 | Lecture 5 |
-| ------ | --------- | --------- | --------- | --------- | --------- |
-| **W1** | Agility   | Versions  | IMRaD     | IPO       | Method    |
-| **W2** |           |           |           |           |           |
-| **W3** |           |           |           |           |           |
-| **W4** |           |           |           |           |           |
+| Week   | Lecture 1 | Lecture 2  | Lecture 3 | Lecture 4 | Lecture 5     |
+| ------ | --------- | ---------- | --------- | --------- | ------------- |
+| **W1** | Agility   | Versions   | IMRaD     | IPO       | Method        |
+| **W2** | Pipeline  | Generation | Wrangling | Analysis  | Visualisation |
+| **W3** |           |            |           |           |               |
+| **W4** |           |            |           |           |               |
 
 ---
 
