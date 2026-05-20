@@ -1,12 +1,12 @@
 # Lecuture 0203, exercise; Filtering Generated Data
 
-Task: Load prevously generated CSV and clean missing values.
+Task: extend architecture with plugins - to load previously generated CSV, cleaning missing or erronous values, writing results to JSON.
 
 ---
 
 ## Overview
 
-The task is to build a small script filtering a previously generated set of data, which contains malformed or missing data, using and extending the previously introduced **Backend-Model-Process** and object-oriented architectural pattern.
+The task is to extend the pipeline architexture with filtering capcity to process previously generated set of data, which contains malformed or missing data, rendering clean data in JSON format.
 
 ## Challenges
 
@@ -30,7 +30,8 @@ The filter you implement should;
 
 - Drop all detected
   - malformed, or
-  - Missing data
+  - missing data
+- Wrangle, ie. reshape the data if nescessary
 
 Your implementation should output the data into **JSON format**, extending your architecture with another file backend for JSON.
 
@@ -48,7 +49,7 @@ Example minimalistic filtering artifact, targeting missing data;
 import pandas as pd
 
 df = pd.read_csv("data.csv")
-df = df.dropna()
+df = df.dropna()s
 ```
 
 Reference:
@@ -56,6 +57,7 @@ Reference:
 - https://pandas.pydata.org/docs/user_guide/10min.html
 - [Python for Data Analysis, Pandas Basics](https://wesmckinney.com/book/pandas-basics.html)
   - Data cleaning: Chapter 7 (McKinney)
+  - Data Wrangling: Chapter 8 (McKinney)
 - [JSON with python](https://docs.python.org/3/library/json.html)
 
 ### 2. Completing Missing Data

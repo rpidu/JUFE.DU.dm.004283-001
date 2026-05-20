@@ -43,8 +43,8 @@ Categorised sources:
 | --- | --------------- | ---------------------------------- |
 | 1   | Python Pipeline | Understand architecture and basics |
 | 2   | Data generation | Design experiment and data with AI |
-| 3   | Data wrangling  | Clean & transform datasets         |
-| 4   | Statistics      | Analyse data quantitatively        |
+| 3   | Data wrangling  | Clean & reshape datasets           |
+| 4   | Statistics      | Analyse & transform data           |
 | 5   | Visualisation   | Communicate insights               |
 
 ### 1. Basic Pipeline using Python (Day 1)
@@ -99,8 +99,7 @@ References:
 📘 Pages:
 
 - Data cleaning: Chapter 7 (McKinney)
-- Data Wrangling: Ch. 3 (pandas basics, indexing, cleaning)
-- Transformation: Pandas user guide section "GroupBy"
+- Data Wrangling: Chapter 8 (McKinney)
 
 ---
 
@@ -118,12 +117,14 @@ References:
 References:
 
 - https://jakevdp.github.io/PythonDataScienceHandbook/03.08-aggregation-and-grouping.html
+- https://pandas.pydata.org/docs/user_guide/index.html
 - [Think Stats (Allen B. Downey)](https://greenteapress.com/wp/think-stats-2e/)
 - SciPy/NumPy Docs: https://numpy.org/doc/
 
 📘 Pages:
 
 - Aggregation & grouping: Python Data Science Handbook, Chapter 3.8
+- Transformation: Pandas user guide section "GroupBy"
 - Analysis: Think Stats Ch. 2–4
 
 ---
