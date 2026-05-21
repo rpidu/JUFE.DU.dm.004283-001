@@ -1,4 +1,4 @@
-# Lecuture 0204, exercise; Data Exploration
+# Lecture 0204, exercise; Data Exploration
 
 Task: Analyse the cleaned dataset, exploring its key characteristics, by aggregation and other means.
 

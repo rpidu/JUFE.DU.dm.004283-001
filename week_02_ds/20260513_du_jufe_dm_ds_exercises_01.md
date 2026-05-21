@@ -1,4 +1,4 @@
-# Lecuture 0201, exercise; IPO from CLI
+# Lecture 0201, exercise; IPO from CLI
 
 ## Overview
 

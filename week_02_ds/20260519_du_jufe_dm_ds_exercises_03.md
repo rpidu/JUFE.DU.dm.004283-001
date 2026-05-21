@@ -1,4 +1,4 @@
-# Lecuture 0203, exercise; Filtering Generated Data
+# Lecture 0203, exercise; Filtering Generated Data
 
 Task: extend architecture with plugins - to load previously generated CSV, cleaning missing or erronous values, writing results to JSON.
 

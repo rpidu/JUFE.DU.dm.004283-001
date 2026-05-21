@@ -1,4 +1,4 @@
-# Lecuture 0202, exercise; Generating Data
+# Lecture 0202, exercise; Generating Data
 
 Task: Simulate an experiment, and generate a CSV with both true data and data errors, taking notes as you go - for the documentation task at the end.
 

@@ -1,4 +1,4 @@
-# Lecuture 0205, exercise; Data Visualisation
+# Lecture 0205, exercise; Data Visualisation
 
 Task: Visualise the history of the dataset, from generated to clean and normalised data - together with aggregates, model approximations and other measures.
 
