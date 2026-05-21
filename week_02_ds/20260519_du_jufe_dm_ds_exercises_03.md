@@ -6,7 +6,7 @@ Task: extend architecture with plugins - to load previously generated CSV, clean
 
 ## Overview
 
-The task is to extend the pipeline architexture with filtering capcity to process previously generated set of data, which contains malformed or missing data, rendering clean data in JSON format.
+The task is to extend the pipeline architecture with filtering capcity to process the previously generated set of data, which contains malformed or missing data, rendering clean data in JSON format.
 
 ## Challenges
 
@@ -82,4 +82,11 @@ Approach the problem similarly as done in the previous challenge; keeping in min
 
 ### 4. Document the filters
 
-Document the exercise the same way that you documented the results from **exercise 0202**.
+Document the exercise the same way that you documented the results from **exercise 0202**;
+
+- Document your discussion with AI, as well as your understanding of the resulting filters and architecture;
+  - provide at most one paragraph each, detailing why the filter design is applicable for the experiment, and your understanding of their implementation - for all of,
+    - dropping,
+    - heuristic, and
+    - imputing filters.
+  - Summarise the filter implementations with one paragraph, as in **exercise 0202**.
