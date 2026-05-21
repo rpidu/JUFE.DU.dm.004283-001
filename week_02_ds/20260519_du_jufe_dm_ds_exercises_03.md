@@ -10,7 +10,7 @@ The task is to extend the pipeline architexture with filtering capcity to proces
 
 ## Challenges
 
-Todays exercises is split into 3 incremental challenges that build on each other. As previous exercise, this exercise builds heavily on AI use; you are to discuss and work through examples together with AI, asking AI to explain and find sources for the material, and execute parts of the challenges. Keep in mind though, that you need to keep meticulous track of your work, in order to discuss the end result and process to it, in the documentation part of the challenges.
+Todays exercises is split into four incremental challenges that build on each other. As previous exercise, this exercise builds heavily on AI use; you are to discuss and work through examples together with AI, asking AI to explain and find sources for the material, and execute parts of the challenges. Keep in mind though, that you need to keep meticulous track of your work, in order to discuss the end result and process to it, in the documentation part of the challenges.
 
 This work is **student work**, and go into the **student repository**.
 
@@ -40,7 +40,7 @@ Approach the problem by;
 - Discussing the design of the filters detection mechanism with AI
 - Identifying the main motivation to the selected mechanism with regard to your experiment design
 - Locating relevant documentation in peer reviewed journals, as previously done in **exercise 0202**
-- Implementing the design using AI, and your specification of the design,¨
+- Implementing the mechanism using AI, and your specification of the design,
   - keeping the filtering function, or subsystem, as a pluggable component in your pipeline architecture
 
 Example minimalistic filtering artifact, targeting missing data;
@@ -49,7 +49,7 @@ Example minimalistic filtering artifact, targeting missing data;
 import pandas as pd
 
 df = pd.read_csv("data.csv")
-df = df.dropna()s
+df = df.dropna()
 ```
 
 Reference:
@@ -66,20 +66,20 @@ Update your previous script by adding the ability to complete any missing data, 
 
 Approach the problem by;
 
-- Discussing the design of the heuristics detection mechanism with AI
+- Discussing the design of the heuristic data completion mechanism with AI
 - Identifying the main motivation to the selected mechanism with regard to your experiment design
 - Locating relevant documentation in peer reviewed journals, as also done in previously previous challenge
-- Implementing the design using AI, and your specification of the design,
-  - extending your pipeline architecture with this filter, as a plugin that can replace
+- Implementing the heuristics using AI, and your specification of the design,
+  - extending your pipeline architecture with this filter, as a plugin function just as before
   - whilst retaining the previous filter as an option
   - using the JSON backend to write the data
 
 ### 3. Imputing Missing Data
 
-Update your previous script by adding the ability to impute missing data, inferring from the subset of the data that is complete - in the senste that it contains no data errors.
+Update your previous script by adding the ability to impute missing data, inferring from the subset of the data that is complete - ie. the part of the data that contain no errors.
 
 Approach the problem similarly as done in the previous challenge; keeping in mind to keep all implemented filters available as plugins, in the resulting solution.
 
-### 4. Document the filter
+### 4. Document the filters
 
 Document the exercise the same way that you documented the results from **exercise 0202**.
