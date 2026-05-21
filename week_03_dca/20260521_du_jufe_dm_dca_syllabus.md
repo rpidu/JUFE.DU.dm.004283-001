@@ -28,6 +28,11 @@ Each day, the students organise in their project groups, working together along 
 - Discuss and summarise work into the markdown formatted IMRAD report in the **group repository**
   - together with resulting protocols from AI discussions, and
   - relevant generated code
+- For each day, document with a protocol in `.md` format, what you have discussed
+  - within the group
+  - with AI in the group
+  - separately with AI
+    - if necessary, work in branches which you merge into the default branch, once done.
 
 ### 1. Theoretic Modeling (Day 1)
 
