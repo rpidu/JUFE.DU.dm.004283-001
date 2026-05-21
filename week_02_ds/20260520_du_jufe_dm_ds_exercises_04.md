@@ -10,7 +10,7 @@ The task is to build a small script that helps you understand the data you have 
 
 ## Challenges
 
-Todays exercises is split into 3 incremental challenges that build on each other. As previous exercise, this exercise builds heavily on AI use; you are to discuss and work through examples together with AI, asking AI to explain and find sources for the material, and execute parts of the challenges. Keep in mind though, that you need to keep meticulous track of your work, in order to discuss the end result and process to it, in the documentation part of the challenges.
+Todays exercises is split into four incremental challenges that build on each other. As previous exercise, this exercise builds heavily on AI use; you are to discuss and work through examples together with AI, asking AI to explain and find sources for the material, and execute parts of the challenges. Keep in mind though, that you need to keep meticulous track of your work, in order to discuss the end result and process to it, in the documentation part of the challenges.
 
 This work is **student work**, and go into the **student repository**.
 
@@ -23,14 +23,14 @@ The data should now be aggregated, implemented this feature as a processing func
 - Process cleaned data from CLI
 - Document how your code should be called from CLI, and expected output, in your `README.md`
 
-The aggregation you implement should;
+The aggregation in you implementation should;
 
-- Measure key characteristics of the data with regard to your data model;
+- Measure key characteristics of the data with regard to your data model, or data quality, ex.;
   - statistical parameters relevant, for the selected distribution(s)
   - level of errors in the data, and
   - measures on data outliers
 
-Your system should also be extended with the capacity to store metadata of aggregates in `.json` format.
+Your system should also be extended with the capacity to report metadata of aggregates in `.json` format.
 
 Approach the problem by;
 
@@ -53,7 +53,7 @@ df = df.groupby('category').mean()
 
 References:
 
-- https://wesmckinney.com/book/
+- [Python for Data Analysis, McKinney; Ch. 10, Aggregation](https://wesmckinney.com/book/data-aggregation)
 - Aggregation & grouping: Python Data Science Handbook, Chapter 3.8
   - https://jakevdp.github.io/PythonDataScienceHandbook/03.08-aggregation-and-grouping.html
 - [Think Stats (Allen B. Downey)](https://greenteapress.com/wp/think-stats-2e/)
@@ -76,7 +76,9 @@ Working as you have done in previous exercise,
 
 ### 3. Exploring Completeness
 
-Do correlation analysis - also apply measures of data contents, or completeness - exploring and reasoning about how large coverage of the full population your cleaned and normalised dataset is.
+> **NOTE:** it is allowed to skip this part of the exercise, moving on to the _visualisation_ exercise **0205** instead.
+
+Do correlation analysis - and/or apply measures of information content, or completeness - exploring and reasoning about how large coverage, of the full population, your cleaned and normalised dataset has.
 
 > **TIP:** discuss measures from _information theory_ with AI, and measures on how normalised the data is - reason with AI why (and if) normalisation measures is relevant to measure completeness.
 

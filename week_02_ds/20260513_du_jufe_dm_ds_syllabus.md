@@ -1,10 +1,5 @@
 # Python Data Science Crash Course (5 Days)
 
-**TODO:** The main fixes for this syllabus are;
-
-- Missing data handling
-- Data quality metrics
-
 ## Executive Summary
 
 This 5-day crash course introduces beginners to Python for data science - using high-quality free resources it focuses on,
@@ -105,6 +100,8 @@ References:
 
 ### 4. Statistical Analysis (Day 4)
 
+> **NOTE:** The day 4 exercises can be combined with day 5 exercises by skipping the most open challenge three from both days.
+
 - Reading JSON
 - Statistics
   - Aggregation measures
@@ -131,25 +128,24 @@ References:
 
 ### 5. Visualisation (Day 5)
 
-> **NOTE:** this part can be done, more lightweight, together with day/part 4.
+> **NOTE:** The day 5 exercises can be combined with day 4 exercises by skipping the most open _challenge three_ from both days.
 
 - Plotting
   - Line plots
   - Scatter plots
   - Histograms
-- Basic dashboards (for a longer exercise)
+
+> **NOTE:** can be extended to include basic concepts of _dashboards_, for a longer exercise. Check [pydata.org](https://seaborn.pydata.org/tutorial.html), seaborn relational plots
 
 References:
 
 - https://matplotlib.org/stable/tutorials/index.html
-- https://seaborn.pydata.org/tutorial.html
 - [Matplotlib Tutorials](https://matplotlib.org/stable/tutorials/index.html)
 - [Python Data Science Handbook (Jake VanderPlas)](https://jakevdp.github.io/PythonDataScienceHandbook/)
 
 📘 Pages:
 
 - Matplotlib intro tutorials
-- Seaborn relational plots
 - Visualization: Python Data Science Handbook, Ch. 4
 
 ---

@@ -1,22 +1,22 @@
 # Lecuture 0205, exercise; Data Visualisation
 
-Task: Visualise the history of the dataset, from generated to clean data - together with aggregates, model approximations and other measures.
+Task: Visualise the history of the dataset, from generated to clean and normalised data - together with aggregates, model approximations and other measures.
 
 ---
 
 ## Overview
 
-The task is to build a small script that renders the data you have cleaned, with focus on measures on data completeness, using the same pluggable pipeline pattern as used previously in the course.
+The task is to build a small script that renders the data you have cleaned, with focus on measures on data quality, using the same pluggable pipeline pattern as used previously in the course.
 
 ## Challenges
 
-Todays exercises is split into 3 incremental challenges that build on each other. As previous exercise, this exercise builds heavily on AI use; you are to discuss and work through examples together with AI, asking AI to explain and find sources for the material, and execute parts of the challenges. Keep in mind though, that you need to keep meticulous track of your work, in order to discuss the end result and process to it, in the documentation part of the challenges.
+Todays exercises is split into four incremental challenges that build on each other. As previous exercise, this exercise builds heavily on AI use; you are to discuss and work through examples together with AI, asking AI to explain and find sources for the material, and execute parts of the challenges. Keep in mind though, that you need to keep meticulous track of your work, in order to discuss the end result and process to it, in the documentation part of the challenges.
 
 This work is **student work**, and go into the **student repository**.
 
-### 1. Visualise dataset history
+### 1. Dataset History
 
-The data should now be visualised, implemented this feature as a processing function, capable of plotting any of the uncleaned generated dataset, through to the fully imputed and normalised data.
+The data should now be visualised, by implementing a plotting feature as a pluggable processing function, capable of plotting any of the dataset versions; from generated to clean, fully imputed and normalised data.
 
 Use the same approach as in all the challenges in prevoius **exercise 0204**, focusing
 
@@ -27,11 +27,13 @@ Use the same approach as in all the challenges in prevoius **exercise 0204**, fo
   - imputed and
   - normalised data
 
-Example plotting of histogram:
+Example plotting of a histogram:
 
 ```python
 import matplotlib.pyplot as plt
+import pandas as pd
 
+df = pd.read_csv('data.csv')
 plt.hist(df['value'])
 plt.show()
 ```
@@ -39,16 +41,18 @@ plt.show()
 Reference:
 https://matplotlib.org/stable/tutorials/index.html
 
-### 2. Visualise aggregates with data
+### 2. Aggregates and Data
 
-Extend the visualisation series, by adding a plotting plugin that adds aggregates to the visualisation, to any of the plotted datasets.
+Extend the visualisation capacity of your data pipeline system, by adding a plotting plugin that indicate aggregate information in the visualisation, when plotting a select dataset.
 
 Use the same approach as previously, remembering to use the `.json` metadata from previous exercise.
 
-### 3. Visualise information measures and population
+### 3. Information and Population
 
-Add capacity visualise data completeness, correlation analysis information and information theoretic measures, to illustrate data sample completeness with respect to the expected background data population.
+> **NOTE:** if you have not performed any of the correlation or completeness quality discussions with AI from **exercise 0204**, you cannot do this part of this exercise.
+
+Add capacity visualise data completeness, a correlation analysis information and/or information theoretic measures, to illustrate data sample completeness with respect to the expected background data population; your choice of visualisations here depends on what you implemented in the _"Exploring Completeness"_ challenge in **exercise 0204**.
 
 ### 4. Document the Exploration
 
-Document the exercise the same way that you documented the results from **exercises 0202-03**.
+Document the exercise the same way that you documented the results from **exercises 0202-04**; focusing what you have learnt from plotting the data.
