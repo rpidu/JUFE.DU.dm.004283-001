@@ -41,7 +41,7 @@ This course equips students with theoretical understanding and practical skills 
 | ------ | --------- | ---------- | --------- | --------- | ------------- |
 | **W1** | Agility   | Versions   | IMRaD     | IPO       | Method        |
 | **W2** | Pipeline  | Generation | Wrangling | Analysis  | Visualisation |
-| **W3** |           |            |           |           |               |
+| **W3** | Model     | Collect    | Verify    | Analyse   | Visualise     |
 | **W4** |           |            |           |           |               |
 
 ---
