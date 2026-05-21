@@ -1,4 +1,4 @@
-# Synthesis and Presentation (3-4 Days)
+# Synthesis and Forum (3-4 Days)
 
 ## Executive Summary
 
