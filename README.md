@@ -60,11 +60,20 @@ By the end of this course, students will:
 
 ## Assessment Overview
 
-Assessment will utilise the process of scholarly peer review, with a preliminary breakdown of
+Assessment will utilise the process of scholarly peer review, with a preliminary schedule of
 
-- **Participation & Exercises:** 40%
-- **Project Work:** 30%
-- **Final Presentation:** 30%
+- **Week 1:** _peer_ and _group_ reviews
+- **Week 2:** _peer_ review
+- **Week 3:** _group_ review
+- **Week 4:** final _presentation_
+
+| Delivery | Part | Type         | Score (%) | Comment   |
+| -------- | ---- | ------------ | --------- | --------- |
+| W3, Mo   | W1   | Peer         | 20        | Executing |
+| W3       | W1   | Group        | 20        | Ready     |
+| W3       | W2   | Peer         | 20        | Planned   |
+| W4       | W3   | Group        | 20        | Planned   |
+| W4, W-Th |      | Presentation | Rest(20)  |           |
 
 ---
 
