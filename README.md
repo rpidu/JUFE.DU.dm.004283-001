@@ -37,12 +37,12 @@ This course equips students with theoretical understanding and practical skills 
 
 ## Weekly Lecture Schedule: to be updated
 
-| Week   | Lecture 1 | Lecture 2  | Lecture 3 | Lecture 4 | Lecture 5     |
-| ------ | --------- | ---------- | --------- | --------- | ------------- |
-| **W1** | Agility   | Versions   | IMRaD     | IPO       | Method        |
-| **W2** | Pipeline  | Generation | Wrangling | Analysis  | Visualisation |
-| **W3** | Model     | Collect    | Verify    | Analyse   | Visualise     |
-| **W4** |           |            |           |           |               |
+| Week   | Lecture 1 | Lecture 2  | Lecture 3   | Lecture 4 | Lecture 5     |
+| ------ | --------- | ---------- | ----------- | --------- | ------------- |
+| **W1** | Agility   | Versions   | IMRaD       | IPO       | Method        |
+| **W2** | Pipeline  | Generation | Wrangling   | Analysis  | Visualisation |
+| **W3** | Model     | Collect    | Verify      | Analyse   | Visualise     |
+| **W4** | Synthesis | Summary    | Forum (end) |           |               |
 
 ---
 
@@ -73,7 +73,7 @@ Assessment will utilise the process of scholarly peer review, with a preliminary
 | W3       | W1   | Group        | 20        | Ready     |
 | W3       | W2   | Peer         | 20        | Planned   |
 | W4       | W3   | Group        | 20        | Planned   |
-| W4, W-Th |      | Presentation | Rest(20)  |           |
+| W4, W-Th | All  | Presentation | Rest(20)  | Planned   |
 
 ---
 
