@@ -20,10 +20,11 @@ This week is fully **group work** and all results go into the **group repository
 | 4   | Analysis      | Perform relevant statistics    |
 | 5   | Visualisation | Communicate the insights       |
 
-Each day, the students organise in their project groups, working together along the workflow already established individually - when solving the corresponding worktasks in the previous week 02.
+Each day, the students organise in their project groups, working together along the workflow already established individually - as previously done during week 02.
 
 - Start detailing the work that need to be done
   - discuss design together in group and with AI jointly
+    - use eligable work targets from week 02, that match and correspond to the tasks for the day
   - split work between peers in the group, if nescessary to work separately with AI in parallell
 - Discuss and summarise work into the markdown formatted IMRAD report in the **group repository**
   - together with resulting protocols from AI discussions, and
