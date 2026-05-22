@@ -141,3 +141,69 @@ Format,
 - All code should follow PEP 8, and have good docstrings for classes, functions and the script as a whole; with inline descriptive comments for each relevant block of code and a concise one-line description of the script in the help option from the CLI.
   - Docstrings focus architecture design and intent
   - Inline commentary focus procedural and algorithmic design
+
+## `20260522` Prompt, deepseek.com: extracting learning targets, and designing peer-to-respondent queries
+
+> NOTE: this rendered `./20260522_du_jufe_dm_peer_review_02_deepseek_w01_w02.md` which targets both week 1 and 2, but we should target only week 2.
+
+Hi deepseek, please extract and produce a summary and listing of the learning targets found in the first week of the course available at; https://github.com/rpidu/JUFE.DU.dm.004283-001 .
+
+The definition of learning targets, you'll find in the peer review file that I provide by uploading to this prompt. The same goes for the week 2 crash course syllabus and exercises, which comes in several files that I will upload.
+
+Please observe that all work is student work, defined in the exercises.
+
+Provide me with a list of all targets, with a one-line statement for each target, which query depending on target type;
+
+- Concepts: a student respondent is queried on their knowledge of the key concept
+- Challenges: a student respondent is queried on their understanding of the challenge
+- Artifacts: a student peer is instructed on how to review group or student repository for artifact presence
+
+Focus on the 10 most prominent concepts and challenges, in line with the main objectives of the course, and the 10 most important artifacts produced during the weeks exercises; rendering 10 peer review questions with regard to the concepts and challenges, all together, and at most 10 queries on artifacts for review.
+
+Format the list summary in markdown `.md` for me to download; I uploaded all files you need to analyse with this prompt.
+
+### Notes
+
+Uploaded files, using chat interface;
+
+- `20260514_du_jufe_dm_peer_review.md`
+- `20260513_du_jufe_dm_ds_syllabus.md`
+- `20260513_du_jufe_dm_ds_01_exercise.md`
+- `20260519_du_jufe_dm_ds_02_exercise.md`
+- `20260519_du_jufe_dm_ds_03_exercise.md`
+- `20260520_du_jufe_dm_ds_04_exercise.md`
+- `20260520_du_jufe_dm_ds_05_exercise.md`
+
+### Variant 2: isolate review on week 2
+
+> NOTE: this rendered `./20260522_du_jufe_dm_peer_review_02_deepseek_w02.md` which targets both week 1 and 2, but we should target only week 2.
+
+Hi deepseek, please extract and produce a summary and listing of the learning targets found in the first week of the course available at; https://github.com/rpidu/JUFE.DU.dm.004283-001 .
+
+The definition of learning targets, you'll find in the peer review file that I provide by uploading to this prompt. The same goes for the week 2 crash course syllabus and exercises, which comes in several files that I will upload.
+
+Please observe that all work is student work, defined in the exercises.
+
+Provide me with a list of all targets, with a one-line statement for each target, which query depending on target type;
+
+- Concepts: a student respondent is queried on their knowledge of the key concept
+- Challenges: a student respondent is queried on their understanding of the challenge
+- Artifacts: a student peer is instructed on how to review group or student repository for artifact presence
+
+Focus on the 10 most prominent concepts and challenges, in line with the main objectives of the course, and the 10 most important artifacts produced during the weeks exercises; rendering 10 peer review questions with regard to the concepts and challenges, all together, and at most 10 queries on artifacts for review.
+
+The review should only target week 2 of the syllabus.
+
+Format the list summary in markdown `.md` for me to download; I uploaded all files you need to analyse with this prompt.
+
+### Notes
+
+Uploaded files, using chat interface;
+
+- `20260514_du_jufe_dm_peer_review.md`
+- `20260513_du_jufe_dm_ds_syllabus.md`
+- `20260513_du_jufe_dm_ds_01_exercise.md`
+- `20260519_du_jufe_dm_ds_02_exercise.md`
+- `20260519_du_jufe_dm_ds_03_exercise.md`
+- `20260520_du_jufe_dm_ds_04_exercise.md`
+- `20260520_du_jufe_dm_ds_05_exercise.md`
