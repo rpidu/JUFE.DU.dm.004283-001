@@ -40,7 +40,7 @@ This course equips students with theoretical understanding and practical skills 
 | Week   | Lecture 1 | Lecture 2  | Lecture 3   | Lecture 4 | Lecture 5     |
 | ------ | --------- | ---------- | ----------- | --------- | ------------- |
 | **W1** | Agility   | Versions   | IMRaD       | IPO       | Method        |
-| **W2** | Pipeline  | Generation | Wrangling   | Quality   | Visualisation |
+| **W2** | Pipeline  | Generation | Cleaning    | Quality   | Visualisation |
 | **W3** | Model     | Collect    | Verify      | Analyse   | Visualise     |
 | **W4** | Synthesis | Summary    | Forum (end) |           |               |
 
