@@ -37,7 +37,7 @@ Approach the problem by;
 - Discussing the design of the relevant aggregation(s) with AI
 - Motivating the aggregate(s) connection to your experiment design
 - Locating relevant documentation in peer reviewed journals, as also previously done in **exercises 0202-03**
-- Implementing the aggregation(s) using AI, and your specification of the design,¨
+- Implementing the aggregation(s) using AI, and your specification of the design,
   - as a plugin to your already extant pipeline architecture; ie. a processing function
   - adding capacity in your backend to read JSON files.
 
