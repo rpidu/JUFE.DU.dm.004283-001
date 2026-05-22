@@ -40,7 +40,7 @@ This course equips students with theoretical understanding and practical skills 
 | Week   | Lecture 1 | Lecture 2  | Lecture 3   | Lecture 4 | Lecture 5     |
 | ------ | --------- | ---------- | ----------- | --------- | ------------- |
 | **W1** | Agility   | Versions   | IMRaD       | IPO       | Method        |
-| **W2** | Pipeline  | Generation | Wrangling   | Analysis  | Visualisation |
+| **W2** | Pipeline  | Generation | Wrangling   | Quality   | Visualisation |
 | **W3** | Model     | Collect    | Verify      | Analyse   | Visualise     |
 | **W4** | Synthesis | Summary    | Forum (end) |           |               |
 
@@ -64,7 +64,6 @@ Assessment will utilise the process of scholarly peer review, with a preliminary
 
 - **Week 1:** _peer_ and _group_ reviews
 - **Week 2:** _peer_ review
-- **Week 3:** _group_ review
 - **Week 4:** final _presentation_
 
 | Delivery | Part | Type         | Score (%) | Comment   |
