@@ -27,7 +27,7 @@ Grading is therefore on learning targets directly, and not on assignments as a w
 
 ## Weekly targets
 
-### Week 1
+### Week 1: peer and group review
 
 See `20260518_du_jufe_dm_peer_review_01_selected_deepseek.md` for documentation and the form `20260518_du_jufe_dm_peer_review_01_selected_vector.xlsx` for filling in the vector.
 
@@ -36,6 +36,10 @@ The groupings for week 1 was generated with;
 ```ps
  py ..\20260512_du_jufe_dm_rpi\peer_review\20260519_du_jufe_dm_peer_review_group_generator_rand.py callsigns.txt > 20260519_groups_week_01.txt
 ```
+
+### Week 2: peer review
+
+See `20260522_du_jufe_dm_peer_review_02_deepseek_w02.md` for documentation and `20260522_du_jufe_dm_peer_review_02_vector_student.xlsx` for submission vector of the review.
 
 ## Codes
 

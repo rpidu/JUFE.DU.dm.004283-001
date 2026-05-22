@@ -207,3 +207,21 @@ Uploaded files, using chat interface;
 - `20260519_du_jufe_dm_ds_03_exercise.md`
 - `20260520_du_jufe_dm_ds_04_exercise.md`
 - `20260520_du_jufe_dm_ds_05_exercise.md`
+
+## `20260522`Prompt, deepseek.com: form for collecting a grading vector
+
+> NOTE: this resulted in the `.csv` file `./deepseek_csv_20260522_79bd9a.txt`, which was OK given the little effort it took to fix it into the format requested; ie. `./20260522_du_jufe_dm_peer_review_02_vector_student.xlsx` .
+
+Given the learning targets that I submit as a file, provide me an excel sheet to download; with a vector of the enumerated learning targets, color coded after the types and class of targets.
+
+Where types are the type of targets in artefacts, challenges and concepts and class is the kind of work as in student or group work. In this case, all targets are of student work class.
+
+- It should not contain the full descriptions of the queries, but summaries and the code for each artifact.
+
+Attached, you find the summary of the learning targets to process;
+
+You have to provide me with a functional link to the form that I actually can download, and it may not contain any summary file or stub file, but most be the full excel form that you have generated as the result of my prompt.
+
+### Notes
+
+Uploaded `./20260522_du_jufe_dm_peer_review_02_deepseek_w02.md` .

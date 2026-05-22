@@ -1,0 +1,21 @@
+ID,Target Type,Class,Summary,Code / Artifact Location
+1,Concept,Student work,IPO Model structure,`main()`: input → process → output
+2,Concept,Student work,Backend–Model–Process pattern,`Backend.read()` / `Model.transform()` / `Process.run()`
+3,Concept,Student work,Data generation & simulation,`generate_data.py`: normal distribution + random NaNs
+4,Concept,Student work,Data wrangling (drop malformed),`filter_data.py`: drop if NaN or string in numeric col
+5,Concept,Student work,Imputation vs completion,`complete_data.py` (mean) vs `impute_data.py` (KNN/group mean)
+6,Concept,Student work,Data normalisation (0–1 range),`normalise_data.py`: `(x - min)/(max - min)`
+7,Challenge,Student work,CLI pipeline with argparse,`analyse_data.py --input clean.json --output report.json`
+8,Challenge,Student work,Pluggable processing functions,`process(data, plugin='drop')` / plugin='impute'
+9,Challenge,Student work,Data aggregation & statistics,`aggregates.json`: mean, outliers %, completeness
+10,Challenge,Student work,Visualising dataset history,`plot_history.py`: raw vs cleaned scatter plot
+11,Artifact,Student work,Generated raw data,`data.csv` (~10k rows, x/y cols, malformed)
+12,Artifact,Student work,Data generator script,`generate_data.py` (OOP + CLI entrypoint)
+13,Artifact,Student work,Filtering (drop) script,`filter_data.py` → `clean_data.json`
+14,Artifact,Student work,Completion script,`complete_data.py` (heuristic fill)
+15,Artifact,Student work,Imputation script,`impute_data.py` (subset inference)
+16,Artifact,Student work,Aggregation + JSON report,`analyse_data.py` + `aggregates.json`
+17,Artifact,Student work,Normalisation script,`normalise_data.py` → `normalised.json`
+18,Artifact,Student work,Visualisation (history),`history.png` (scatter/histogram comparison)
+19,Artifact,Student work,Visualisation (aggregates),`plot_aggregates.py` with mean/confidence band
+20,Artifact,Student work,README.md,CLI commands + AI discussion on design choices
