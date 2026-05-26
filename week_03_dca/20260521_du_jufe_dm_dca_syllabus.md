@@ -22,14 +22,14 @@ This week is fully **group work** and all results go into the **group repository
 
 **Each day**, the students _organise_ in their project groups, working _together_ along the workflow already established individually - as previously done during week 02.
 
-- Start detailing the work that need to be done
-  - discuss design together in group and with AI jointly
+- Start **detailing the work** that need to be done
+  - discuss **design** together in group and with AI jointly
     - use eligable work targets from week 02, that match and correspond to the tasks for the day
   - split work between peers in the group, if nescessary to work separately with AI in parallell
-- Discuss and summarise work into the markdown formatted IMRAD report in the **group repository**
+- Discuss and **summarise work** into the markdown formatted IMRAD report in the **group repository**
   - together with resulting protocols from AI discussions, and
   - relevant generated code
-- For _each day_, document with a protocol each in `.md` format, what you have _discussed_ and which **decisions** you have arrived upon,
+- For _each day_, document with a **protocol** each in `.md` format, what you have _discussed_ and which **decisions** you have arrived upon,
   - within the group, ie. **group protocol**
   - with AI in the group, ie. **AI protocol**
   - separately with AI, **collaborator protocol**
@@ -39,7 +39,7 @@ This week is fully **group work** and all results go into the **group repository
 
 The groups starts from their work in week one, extending their project with the modeling discussion performed as student work in week two.
 
-- The resulting summaries from this days work is expected to go into the Introduction and Method sections of the IMRaD report, ie. the `README.md`.
+- The resulting summaries from this days work is expected to go into the _Introduction_ and _Method_ sections of the **IMRaD report**, ie. the `README.md`.
 
 ### 2. Data Collection (Day 2)
 

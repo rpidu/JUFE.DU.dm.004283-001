@@ -48,7 +48,7 @@ The main idea is to keep the group reviews as open methodologically as possible,
 The groups will be reviewing each other, all vs. all; ie. each pair of groups will meet, and review each other in tandem. Each group ask the other group _three select questions_ with regard to concepts and challenges learning targets, and review _three artifacts_ within the each others group repositories. It is the respondent group that decide which questions and artifacts that the peer group will review; mind that in each meeting, both groups are peers and respondents with respect to each others - meaning that every group reviews every other group.
 
 - **Learning targets** are _G1-G22_, documented in `20260518_du_jufe_dm_peer_review_01_selected_deepseek.md` .
-- **TODO**: reference the group review **vector document** (excel sheet)
+- **Vector document** (excel sheet), is available in `20260526_du_jufe_dm_group_review_vector.xlsx` .
 
 ### Week 2: peer review
 
