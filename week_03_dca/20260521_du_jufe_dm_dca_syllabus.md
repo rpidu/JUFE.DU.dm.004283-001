@@ -39,7 +39,7 @@ Each day, the students organise in their project groups, working together along 
 
 The groups starts from their work in week one, extending their project with the modeling discussion performed as student work in week two.
 
-- The resulting summaries from this days work is expected to go into the Introduction and Method sections of the IMRaD report.
+- The resulting summaries from this days work is expected to go into the Introduction and Method sections of the IMRaD report, ie. the `README.md`.
 
 ### 2. Data Collection (Day 2)
 

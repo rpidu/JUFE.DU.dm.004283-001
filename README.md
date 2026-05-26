@@ -66,12 +66,12 @@ Assessment will utilise the process of scholarly peer review, with a preliminary
 - **Week 2:** _peer_ review
 - **Week 4:** final _presentation_
 
-| Delivery | Part | Type         | Score (%) | Comment   |
-| -------- | ---- | ------------ | --------- | --------- |
-| W3, Mo   | W1   | Peer         | 20        | Executing |
-| W3, Fr   | W1   | Group        | 20        | Ready     |
-| W4, Mo   | W2   | Peer         | 20        | Ready     |
-| W4, W-Th | All  | Presentation | Rest(40)  | Planned   |
+| Delivery | Part | Type         | Score (%) | Comment    |
+| -------- | ---- | ------------ | --------- | ---------- |
+| W3, Mo   | W1   | Peer         | 20        | Evaluation |
+| W3, Fr   | W1   | Group        | 20        | Ready      |
+| W4, Mo   | W2   | Peer         | 20        | Ready      |
+| W4, W-Th | All  | Presentation | Rest(40)  | Planned    |
 
 ---
 
