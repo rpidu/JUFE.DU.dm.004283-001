@@ -20,7 +20,7 @@ This week is fully **group work** and all results go into the **group repository
 | 4   | Analysis      | Perform relevant statistics    |
 | 5   | Visualisation | Communicate the insights       |
 
-Each day, the students organise in their project groups, working together along the workflow already established individually - as previously done during week 02.
+**Each day**, the students _organise_ in their project groups, working _together_ along the workflow already established individually - as previously done during week 02.
 
 - Start detailing the work that need to be done
   - discuss design together in group and with AI jointly
@@ -46,9 +46,13 @@ The groups starts from their work in week one, extending their project with the 
 With a settled model, the data collection is executed - either in a real experiment, using a simulator (ie. generator) or finding a suitable already extant dataset.
 
 - Here the students may opt to do real data collection, instead of using a generator. If so, do **not** store that _data_ in any _public_ git repository, or other public place.
-- The resulting _discussion_ of this should mainly go into the Method section
-- Resulting data will need to be processed before used in the report
+- The resulting _discussion_ of this should mainly go into the **Method** section of the IMRaD report in `README.md`.
+- Resulting data will need to be **processed before used** in the report
   - do not put any real data in the public repository
+- Keep in mind that;
+  - extant datasets that you download, needs to be documented thoroughly, ie. referenced etc. .
+  - generators for simulated data needs to be document as well.
+  - data collection experiment setup needs to be documented.
 
 ### 3. Data Verification (Day 3)
 

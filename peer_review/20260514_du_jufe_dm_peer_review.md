@@ -29,6 +29,10 @@ Grading is therefore on learning targets directly, and not on assignments as a w
 
 ### Week 1: peer and group review
 
+#### Peer
+
+> NOTE: the peer review of week 1 has concluded as of `20260626`
+
 See `20260518_du_jufe_dm_peer_review_01_selected_deepseek.md` for documentation and the form `20260518_du_jufe_dm_peer_review_01_selected_vector.xlsx` for filling in the vector.
 
 The groupings for week 1 was generated with;
@@ -37,9 +41,22 @@ The groupings for week 1 was generated with;
  py ..\20260512_du_jufe_dm_rpi\peer_review\20260519_du_jufe_dm_peer_review_group_generator_rand.py callsigns.txt > 20260519_groups_week_01.txt
 ```
 
+#### Group
+
+The main idea is to keep the group reviews as open methodologically as possible, whilst keeping it in line with previous peer review - to simplifly its implementation.
+
+The groups will be reviewing each other, all vs. all; ie. each pair of groups will meet, and review each other in tandem. Each group ask the other group _three select questions_ with regard to concepts and challenges learning targets, and review _three artifacts_ within the each others group repositories. It is the respondent group that decide which questions and artifacts that the peer group will review; mind that in each meeting, both groups are peers and respondents with respect to each others - meaning that every group reviews every other group.
+
+- **Learning targets** are _G1-G22_, documented in `20260518_du_jufe_dm_peer_review_01_selected_deepseek.md` .
+- **TODO**: reference the group review **vector document** (excel sheet)
+
 ### Week 2: peer review
 
+The week 2 student peer review, will execute in the same format as week 1 student peer review; meaning that each student will be assigned 8 other students, and will ask them three questions each on challenge and concept learning targets - which the respondent student choose. The respondent student also choose three artifacts, that the peer will review within the respondents student repository. Typically you give ca. 2 minutes per question - follow up questions are OK, to ensure that the peer get a fair chance to understand the respondent.
+
 See `20260522_du_jufe_dm_peer_review_02_deepseek_w02.md` for documentation and `20260522_du_jufe_dm_peer_review_02_vector_student.xlsx` for submission vector of the review.
+
+- **TODO**: generate the peer _review sets_ for each class.
 
 ## Codes
 
