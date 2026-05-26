@@ -26,7 +26,7 @@ This week is fully **group work** and all results go into the **group repository
   - discuss **design** together in group and with AI jointly
     - use eligable work targets from week 02, that match and correspond to the tasks for the day
   - split work between peers in the group, if nescessary to work separately with AI in parallell
-- Discuss and **summarise work** into the markdown formatted IMRAD report in the **group repository**
+- Discuss and **summarise work** into the markdown formatted IMRAD report in the **group repository**, ie. the `README.md`.
   - together with resulting protocols from AI discussions, and
   - relevant generated code
 - For _each day_, document with a **protocol** each in `.md` format, what you have _discussed_ and which **decisions** you have arrived upon,
@@ -58,9 +58,9 @@ With a settled model, the data collection is executed - either in a real experim
 
 After collection of the data, the groups will clean it, perform suitable metrics and visualisations needed, in order to gauge the quality of the data. This is nescessary in order to understand what significance, that any conclusions can have, when drawn from the data at hand.
 
-- The resulting insigths discussion is put into the Discussion part of the report
-- Any visualisations and tabulated metrics of data quality goes into Results section
+- Any _visualisations_ and tabulated _metrics_ of data _quality_ goes into **Results** section
   - do not put any real data in the public repository
+- The resulting _insigths_ discussion is put into the **Discussion** part of the IMRaD report, in the `README.md`.
 
 ### 4. Statistical Analysis (Day 4)
 
