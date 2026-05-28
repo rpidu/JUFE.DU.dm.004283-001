@@ -68,6 +68,8 @@ When data quality has been discussed, it is time to perform the selected statist
 
 - The resulting _discussion_ here should go partly into
   - the **Method** section, if it is method _design_, and into
+  - the **Results** section, if it is tabulated values or otherwise _data_ directly from analysis
+    - **no** _raw data_ that can be inferred to _indiviuals_ are allowed to be uploaded into repository or elsewhere.
   - the **Discussion** section, of the IMRaD report in the `README.md`, if it is discussing of the results from _applying_ the method
 
 ### 5. Visualisation (Day 5)
