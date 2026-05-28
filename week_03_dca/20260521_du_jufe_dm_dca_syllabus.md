@@ -66,9 +66,9 @@ After collection of the data, the groups will clean it, perform suitable metrics
 
 When data quality has been discussed, it is time to perform the selected statistical analysis, that the students har descided upon previously. Changes to the selected method can be done, with due motivation; but this focus the review and execution the initial plan from week one, which has been revised during the theoretic modelling in the beginning of this week, using the students experiences from last week.
 
-- The resulting discussion here should go partly into
-  - the Method section, if it is method design, and into
-  - the Discussion, if it is discussing of the results from applying the method
+- The resulting _discussion_ here should go partly into
+  - the **Method** section, if it is method _design_, and into
+  - the **Discussion** section, of the IMRaD report in the `README.md`, if it is discussing of the results from _applying_ the method
 
 ### 5. Visualisation (Day 5)
 
