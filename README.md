@@ -70,7 +70,7 @@ Assessment will utilise the process of scholarly peer review, with a preliminary
 | -------- | ---- | ------------ | --------- | ---------- |
 | W3, Mo   | W1   | Peer         | 20        | Evaluation |
 | W3, Fr   | W1   | Group        | 20        | Evaluation |
-| W4, Mo   | W2   | Peer         | 20        | Ready      |
+| W4, Mo   | W2   | Peer         | 20        | Executing  |
 | W4, W-Th | All  | Presentation | Rest(40)  | Planned    |
 
 ---

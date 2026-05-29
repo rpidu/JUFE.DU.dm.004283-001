@@ -32,7 +32,7 @@ This week is fully **group work** and all results go into the **group repository
 - For _each day_, document with a **protocol** each in `.md` format, what you have _discussed_ and which **decisions** you have arrived upon,
   - within the group, ie. **group protocol**
   - with AI in the group, ie. **AI protocol**
-  - separately with AI, **collaborator protocol**
+  - separately with AI, **collaborator protocol**(s)
     - if necessary, work in branches which you merge into the default branch, once done.
 
 ### 1. Theoretic Modeling (Day 1)
@@ -74,7 +74,7 @@ When data quality has been discussed, it is time to perform the selected statist
 
 ### 5. Visualisation (Day 5)
 
-The final visualisations that are relevant to support any conclusions to be made by the groups are rendered from the analysis.
+The final visualisations that are relevant, to support any conclusions to be made by the groups, are rendered from the analysis.
 
 - The _visualtisations_ here go into the **Results** section of the iMRaD report, in the `README.md`, whilst
 - _discussions_ of the visualisations go into the **Discussion** section.
