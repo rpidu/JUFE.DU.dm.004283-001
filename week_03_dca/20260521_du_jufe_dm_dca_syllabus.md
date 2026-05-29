@@ -76,5 +76,5 @@ When data quality has been discussed, it is time to perform the selected statist
 
 The final visualisations that are relevant to support any conclusions to be made by the groups are rendered from the analysis.
 
-- The visualtisations here go into the Results section of the report, whilst
-- discussions of the visualisations go into the Discussion section.
+- The _visualtisations_ here go into the **Results** section of the iMRaD report, in the `README.md`, whilst
+- _discussions_ of the visualisations go into the **Discussion** section.
